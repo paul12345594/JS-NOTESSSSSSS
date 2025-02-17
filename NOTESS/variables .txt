@@ -1,0 +1,4 @@
+1. Automatically
+2.using var -- can be redeclared  for older browser
+3.using let    -- cannot redeclared
+4. using const  -- constant cant change 

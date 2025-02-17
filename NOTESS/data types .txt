@@ -1,0 +1,11 @@
+String     / WORD  
+Number          
+Boolean     / TRUE or FALSE
+Undefined   / no value the variable
+Null        / no ITEM
+Object
+Bigint
+Symbol
+ 
+
+ 
