@@ -1,14 +1,19 @@
-// let s = ["paulworx", "allenworx", "cyrilworxx", "maye"];
-// alert(s[2])
+// let names = ["John", "Doe", "Jane", "Dane", "Sam",];
 
-// UPDATING ARRAY
-// let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-// numbers[11] = 10;
-// alert(numbers[10]);
+// names = names.slice(4, 5);
+// alert(names);
+//----------------------------------------------------------
+//names.pop(); // remove last element
+//names.shift(); // remove first element
 
-let cars = ["BMW", "Volvo", "Saab", "Ford"];
-cars.push("Toyota");
-cars.unshift("Nissan");
+//----------------------------------------------------------
+let firstNames = ["John", "paul", "Jane",];
+let lastNames = ["De, Guzman", "Dungca", "David",];
+let age = [20, 30, 40,];
 
-alert(cars);
+let id = 0;
+console.log(`ID : ${id}`);
+console.log(`First Name: ${firstNames[id]}`);
+console.log(`Last Name : ${lastNames[id]}`);
+console.log(`Age : ${age[id]}`);
 
