@@ -1,16 +1,30 @@
-// NESTED CONDITIONALS STATEMENTS
-// one condition is nested inside another condition statements
-//----------------------------------------------------
-//EXAMPLEEEEE
-let age = 20 ;
-let experience = 1;
+// let age =17;
+// let Regisered = false;
+// if(age >= 18 && Regisered){ 
+//     alert("valid voter")  // true  
+// } else if (age >= 18 && !Regisered){
+//     alert("REGISTER FIRST")             
+// } else if (Regisered && age <= 17){
+//     alert("INVALID VOTER")            
+// } else if (!Regisered && age <= 17){
+//     alert("NON VOTER")                 
+// }
 
-if (age >= 18){
-    if (experience >= 1 ){
-        if (experience > 5) alert("You are Overqualified for the job");
-        else alert("You are eligible to apply for the job");
-    }  
-    else alert("Not eligible to apply for the job");
+//---------------------------------------------------------
+// NESTED OPERATOR 
+// let age =7;
+// let registered = false;
 
-
-}else alert("your too young for this job");
+// if (registered){
+//     if (age >= 18){
+//         alert("valid voter")
+//     }else{
+//         alert("invalid voter")
+//     }
+// }else {
+//     if (age >= 18){
+//         alert("register first")
+//     }else{
+//         alert("non voter")
+//     }
+// }
