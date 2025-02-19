@@ -1,19 +1,16 @@
-// console.log(true && true);   // true
-// console.log(true && false);  // false
-// console.log(false && true);  // false
-// console.log(false && false); // false
+// NESTED CONDITIONALS STATEMENTS
+// one condition is nested inside another condition statements
+//----------------------------------------------------
+//EXAMPLEEEEE
+let age = 20 ;
+let experience = 1;
+
+if (age >= 18){
+    if (experience >= 1 ){
+        if (experience > 5) alert("You are Overqualified for the job");
+        else alert("You are eligible to apply for the job");
+    }  
+    else alert("Not eligible to apply for the job");
 
 
-// console.log(true || true);   // true
-// console.log(true || false);  // true
-// console.log(false || true);  // true
-// console.log(false || false); // false
-
-//----------------------------------------------------------------------------
-
-
-let age = 19;
-let experience = 3;
-let language = "C++"; 
-
-alert(age >= 18 && experience < 1 || language === "C++"); //
+}else alert("your too young for this job");
