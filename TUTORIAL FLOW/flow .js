@@ -16,17 +16,17 @@
 // }
 //----------------------------------------------------
 // BREAK KEYWORD
-let people = ["David", "Alenere", "Gilbert", "James"];
-let b = 0;
-let search = "James";  // the search only is the RESULT
+// let people = ["David", "Alenere", "Gilbert", "James"];
+// let b = 0;
+// let search = "James";  // the search only is the RESULT
 
-while (people[b]) {
-    if (people[b] === search) {
-        console.log(people[b]);
-        break;
-    }
-    b++;
-}
+// while (people[b]) {
+//     if (people[b] === search) {
+//         console.log(people[b]);
+//         break;
+//     }
+//     b++;
+// }
 
 //     //------------------------------------------------------------
 //     console.log(people[b]);
@@ -35,3 +35,13 @@ while (people[b]) {
 //         break;         // RESULT = "David", "Alenere", "Gilbert",
 //     }
 // }
+//------------------------------------------------------------------------------------
+let arr = [5, 5, 5, 5, 5];
+let i = 0;
+let sum = 0;
+
+while (arr[i]) {
+    sum += arr[i];
+    i++;
+}
+alert(sum);
