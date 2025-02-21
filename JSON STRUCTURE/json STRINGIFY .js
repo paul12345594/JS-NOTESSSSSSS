@@ -25,3 +25,24 @@
 // let person = JSON.parse(strPerson);         // STRING TO JSON FORMAT
 // console.log(person);
 
+//--------------------------------------------------JSON.Array
+
+let person = [          // ARRAY 
+    {
+        firstName : "Wilmon",
+        lastName: "Navarro",
+        age: 22,
+    },
+    {
+        firstName : "Justin",
+        lastName: "Mallari",
+        age: 25,
+    },
+    {
+        firstName : "Blue",
+        lastName: "Besa",
+        age: 26,
+    }, // CAN MANIPULATE ARRAY YOU WANT TO ACCESS
+]
+// console.log(`${person[2].firstName} ${person[2].lastName} ${person[2].age}`);
+// console.log(`${person[0].lastName} ${person[1].firstName}`)
