@@ -1,50 +1,34 @@
-// let people = [          
-//     {
-//         firstName : "Wilmon",
-//         lastName: "Navarro",
-//         age: 11,
-//     },
-//     {
-//         firstName : "Justin",
-//         lastName: "Mallari",
-//         age: 22,
-//     },
-//     {
-//         firstName : "Blue",
-//         lastName: "Besa",
-//         age: 33,
-//     }, 
-//     {
-//         firstName : "Jenar",
-//         lastName: "De Luna",
-//         age: 44,
-//     },
-//     {
-//         firstName : "Robin",
-//         lastName: "Bancolita",
-//         age: 55,
-//     },
-//     {
-//         firstName : "Lawrence",
-//         lastName: "Dizon",
-//         age: 66,
-//     },
-// ]
-
-// for (let i = 0; i < people.length; i++){
-//     console.log(`FirstName: ${people[i].firstName}`);
-//     console.log(`lastName: ${people[i].lastName}`);
-//     console.log(`age: ${people[i].age}`);
+// let people = {          
+        
+//     firstname : "Wilmon",
+//     lastName: "Navarro",
+//     age: 11,   
 // }
 
+// JSON & FOR/IN Loop
+// for (let k in people){
+//     // console.log(k)
+//      console.log(`${k}: ${people[k]}`);
+// }
+//------------------------------------------
+// Object.Keys() method
+// let keys= Object.keys(people);              // Array form = ELEMENT / INDEX
+// console.log(keys)
 
-let people = {          
-        
-    firstname : "Wilmon",
-    lastName: "Navarro",
-    age: 11,
-        
+//------------------------------------------
+// TUTORIAL CHALLENGE   = Object.keys()Method
+let grades = {
+    Math: 94,
+    Science: 97,
+    Computer: 93,
+    Filipino: 95,
+    English: 92
 }
-for (let k in people){
-    console.log(`${k}: ${people[k]}`);
+let average = 0
+
+for(let k in grades){
+    console.log (`${k}: ${grades[k]}`);
+    average += grades[k];
 }
+average /= Object.keys(grades).length
+console.log(`Avergae: ${average}`);
